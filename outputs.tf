@@ -1,0 +1,11 @@
+output "hostname" { value = "${packet_device.dev.*.hostname}" }
+output "state" { value = "${packet_device.dev.*.state}" }
+output "facility" { value = "${packet_device.dev.*.facility}" }
+output "plan" { value = "${packet_device.dev.*.plan}" }
+output "network" { value = "${packet_device.dev.*.network}" }
+output "billing_cycle" { value = "${packet_device.dev.*.billing_cycle}" }
+output "operating_system" { value = "${packet_device.dev.*.operating_system}" }
+output "spot_instance" { value = "${packet_device.dev.*.spot_instance}" }
+output "spot_price_max" { value = "${packet_device.dev.*.spot_price_max}" }
+output "created" { value = "${packet_device.dev.*.created}" }
+output "updated" { value = "${packet_device.dev.*.updated}" }

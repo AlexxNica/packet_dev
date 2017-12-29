@@ -1,0 +1,12 @@
+{
+  "debug": true,
+  "max-concurrent-downloads": 10,
+  "tlsverify": true,
+  "tlscacert": "/etc/docker/certs/ca.pem",
+  "tlscert": "/etc/docker/certs/cert.pem",
+  "tlskey": "/etc/docker/certs/key.pem",
+  "hosts": [
+    "tcp://0.0.0.0:2376",
+    "unix:///var/run/docker.sock"
+  ]
+}
