@@ -1,4 +1,4 @@
-*.tfstate
+*tfstate*
 *.log
 *.terraform
 !terraform.tf

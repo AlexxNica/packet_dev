@@ -22,6 +22,6 @@ to_create_name               = "Alexandre Nicastro"
 #- Package Related -#
 #-------------------#
 # Comma separated list of packages to be installed, from left-to-right (e.g. git,gradle,netcat-openbsd,zip)
-to_install_apt_packages      = "git,python-pip python3-pip gradle apt-transport-https ca-certificates curl software-properties-common netcat-openbsd zip linux-headers-generic linux-headers-4.13.0-16-generic"
+to_install_apt_packages      = "git,python-pip,python3-pip,gradle,apt-transport-https,ca-certificates,curl,software-properties-common,netcat-openbsd,zip,linux-headers-generic,linux-headers-4.13.0-16-generic"
 to_install_pip_packages      = "setuptools,ansible,jinja2,docker-py"
 to_install_pip3_packages     = "setuptools,ansible,jinja2,docker-py"
