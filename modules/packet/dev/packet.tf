@@ -1,8 +1,3 @@
-# Configure the Packet Provider
-provider "packet" {
-  auth_token = "${var.packet_api_key}"
-}
-
 # resource "packet_ssh_key" "key1" {
 #   name       = "terraform-1"
 #   public_key       = "${file("/Users/alexxnica/.ssh/id_rsa.pub")}"
